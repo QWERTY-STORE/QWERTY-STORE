@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 #*   Замените этот токен на ваш новый токен от BotFather
-TOKEN = '7279566385:AAHFZCNUdNO0X9ejtMYqsOMcDM4UfheDfN0'
+TOKEN = '7471037984:AAFTTzXqPUi_wFcRXcTHerdAkk6IfvPbfQ0'
 
 
 
@@ -22,7 +22,7 @@ TOKEN = '7279566385:AAHFZCNUdNO0X9ejtMYqsOMcDM4UfheDfN0'
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logger.info('Received /start command')
     keyboard = [
-        [InlineKeyboardButton("WebSite", web_app=WebAppInfo(url="https://qwerty-store.github.io/QWERTY-STORE/"))]
+        [InlineKeyboardButton("WebSite", web_app=WebAppInfo(url="https://qwerty-store.github.io/QWERTY-STORE-SITE/"))]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text('Добро пожаловать в QWERTY STORE! Нажмите кнопку ниже, чтобы открыть сайт!', reply_markup=reply_markup)
