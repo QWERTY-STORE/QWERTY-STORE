@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1a1a2e;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.site-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.tagline {
+    color: #bbb;
+    font-size: 10px;
+}
+
+.category-button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.menu-icon {
+    margin-left: 5px;
+}
+
+.search-bar {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a2a40;
+    color: white;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.categories h2 {
+    color: #7289da;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    margin: 10px 0;
+}
+
+.categories ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #2b2b2b;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .social-links img {
+    width: 24px;
+    height: 24px;
+}
